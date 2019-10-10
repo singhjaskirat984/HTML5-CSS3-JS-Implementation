@@ -1,0 +1,93 @@
+#logo-text{
+	font-size: 50px;
+	text-decoration: none;
+
+}
+nav.navbar-default{
+	background-color: grey;
+	border:2px solid black;
+}
+div.container{
+	margin-left:0px;
+}
+.navbar-default .navbar-toggle{
+border-color:black;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: black;
+}
+@media (max-width: 767px)
+{
+	div #logo-text{
+		font-size: 7vw;
+	}
+}
+.navbar-default .navbar-collapse{
+	clear:both;
+	border-color: black;
+}
+.navbar-default .navbar-nav>li>a{
+	color:black;
+	text-align: center;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: white;
+}
+h1{
+	margin-bottom: 10px;
+}
+.cs a.hh{
+	text-align: center;
+	color:black;
+	font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    float:left;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+
+}
+.row{
+	width:100%;
+
+}
+.cs{
+
+  border: 1px solid black;
+  background-color:grey;
+  width: 90%;
+  height:235px;
+  font-family: Helvetica;
+  color: black;
+  margin:20px;
+  margin-bottom: 20px;
+
+}
+p{
+	margin: 35px 7px 7px 7px;
+}
+@media (min-width:992px)
+{.col-lg-4{
+
+	width:33.33%;
+	float:left;
+
+	}
+
+
+}
+@media (min-width: 768px) and (max-width:991px) 
+{
+	.col-md-6{
+		width:50%;
+		float:left;
+	}
+	.col-xl-12{
+		width:100%;
+		clear:left;
+	}
+	.col-xl-12 > .cs{
+	width: 95%;
+}
+}
